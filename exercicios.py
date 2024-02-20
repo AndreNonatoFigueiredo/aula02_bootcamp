@@ -87,13 +87,18 @@
 
 # 14. Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
 
-data_formatada = input("Digite uma data no formato dd/mm/aaaa: ")
-data_separada = data_formatada.split("/")
-print("O dia é: " +  data_separada[0])
-print("O mês é : "+ data_separada[1])
-print("O ano é : " +data_separada[2])
+# data_formatada = input("Digite uma data no formato dd/mm/aaaa: ")
+# data_separada = data_formatada.split("/")
+# print("O dia é: " +  data_separada[0])
+# print("O mês é : "+ data_separada[1])
+# print("O ano é : " +data_separada[2])
 
 # 15. Escreva um programa que concatene duas strings fornecidas pelo usuário.
+
+texto1 = input("Digite a primeira string: ")
+texto2 = input("Digite a outra string: ")
+concat = texto1 + " " + texto2
+print(concat)
 
 # #### Booleanos (`bool`)
 
