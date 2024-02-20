@@ -104,14 +104,20 @@
 
 # 16. Escreva um programa que avalie duas expressões booleanas inseridas pelo usuário e retorne o resultado da operação AND entre elas.
 
+# exp_bool1 = bool(input("Digite uma expressão booleana (True ou False): "))
+# exp_bool2 = bool(input("Digite outra expressão booleana (True ou False): "))
+# resultado = exp_bool1 and exp_bool2
+
+# print(resultado)
+
+# 17. Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
+
 exp_bool1 = bool(input("Digite uma expressão booleana (True ou False): "))
 exp_bool2 = bool(input("Digite outra expressão booleana (True ou False): "))
-resultado = exp_bool1 and exp_bool2
+resultado = exp_bool1 or exp_bool2
 
 print(resultado)
 
-
-# 17. Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
 # 18. Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
 # 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
 # 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
