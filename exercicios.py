@@ -2,13 +2,18 @@
 
 # 1. Escreva um programa que soma dois números inteiros inseridos pelo usuário.
 
-num1 = int(input("Digite o primeiro número inteiro: "))
-num2 = int(input("Digite o outro número inteiro: "))
-soma = num1 + num2
-print(soma)
+# num1 = int(input("Digite o primeiro número inteiro: "))
+# num2 = int(input("Digite o outro número inteiro: "))
+# soma = num1 + num2
+# print(soma)
 
 
 # 2. Crie um programa que receba um número do usuário e calcule o resto da divisão desse número por 5.
+
+num = int(input("Digite o número que será dividido por 5: "))
+calc = num%5
+print("O resto da divisão por 5 é: " + str(calc))
+
 # 3. Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
