@@ -58,11 +58,15 @@
 
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
 
-celsius = float(input("Digite os graus celsios que serão convertidos para Fahrenheit : "))
-calc = (celsius * 1.8) + 32
-print(calc)
+# celsius = float(input("Digite os graus celsios que serão convertidos para Fahrenheit : "))
+# calc = (celsius * 1.8) + 32
+# print(calc)
 
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
+
+num1 = float(input("Digite a área do círculo: "))
+calc = 3.14 * num1 ** 2
+print(calc)
 
 # #### Strings (`str`)
 
