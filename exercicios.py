@@ -125,12 +125,17 @@
 
 # 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
 
-num1 = int(input("Digite o primeiro número inteiro: "))
-num2 = int(input("Digite o outro número inteiro: "))
-resultado = num1 == num2
-print(resultado)
+# num1 = int(input("Digite o primeiro número inteiro: "))
+# num2 = int(input("Digite o outro número inteiro: "))
+# resultado = num1 == num2
+# print(resultado)
 
 # 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
+
+num1 = int(input("Digite o primeiro número inteiro: "))
+num2 = int(input("Digite o outro número inteiro: "))
+resultado = num1 != num2
+print(resultado)
 
 # #### try-except e if
 
