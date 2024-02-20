@@ -119,11 +119,17 @@
 # print(resultado)
 
 # 18. Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
-exp_bool = bool(input("Insira um valor booleano (True ou False): "))
-resultado = not exp_bool
-print(resultado)
+# exp_bool = bool(input("Insira um valor booleano (True ou False): "))
+# resultado = not exp_bool
+# print(resultado)
 
 # 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
+
+num1 = int(input("Digite o primeiro número inteiro: "))
+num2 = int(input("Digite o outro número inteiro: "))
+resultado = num1 == num2
+print(resultado)
+
 # 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
 
 # #### try-except e if
