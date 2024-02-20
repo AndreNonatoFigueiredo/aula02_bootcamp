@@ -112,13 +112,17 @@
 
 # 17. Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
 
-exp_bool1 = bool(input("Digite uma expressão booleana (True ou False): "))
-exp_bool2 = bool(input("Digite outra expressão booleana (True ou False): "))
-resultado = exp_bool1 or exp_bool2
+# exp_bool1 = bool(input("Digite uma expressão booleana (True ou False): "))
+# exp_bool2 = bool(input("Digite outra expressão booleana (True ou False): "))
+# resultado = exp_bool1 or exp_bool2
 
-print(resultado)
+# print(resultado)
 
 # 18. Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
+exp_bool = bool(input("Insira um valor booleano (True ou False): "))
+resultado = not exp_bool
+print(resultado)
+
 # 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
 # 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
 
