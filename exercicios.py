@@ -132,14 +132,24 @@
 
 # 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
 
-num1 = int(input("Digite o primeiro número inteiro: "))
-num2 = int(input("Digite o outro número inteiro: "))
-resultado = num1 != num2
-print(resultado)
+# num1 = int(input("Digite o primeiro número inteiro: "))
+# num2 = int(input("Digite o outro número inteiro: "))
+# resultado = num1 != num2
+# print(resultado)
 
 # #### try-except e if
 
 # 21: Conversor de Temperatura
+
+try:
+    celsius = float(input("Digite os graus celsios que serão convertidos para Fahrenheit : "))
+    calc = (celsius * 1.8) + 32
+    print(f"{celsius}ºC é gual a {calc}ºF")
+except ValueError:
+    print("Digite um valor válido para temperatura")
+    
+
+
 # 22: Verificador de Palíndromo
 # 23: Calculadora Simples
 # 24: Classificador de Números
