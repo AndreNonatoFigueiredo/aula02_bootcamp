@@ -141,16 +141,25 @@
 
 # 21: Conversor de Temperatura
 
-try:
-    celsius = float(input("Digite os graus celsios que serão convertidos para Fahrenheit : "))
-    calc = (celsius * 1.8) + 32
-    print(f"{celsius}ºC é gual a {calc}ºF")
-except ValueError:
-    print("Digite um valor válido para temperatura")
-    
-
+# try:
+#     celsius = float(input("Digite os graus celsios que serão convertidos para Fahrenheit : "))
+#     calc = (celsius * 1.8) + 32
+#     print(f"{celsius}ºC é gual a {calc}ºF")
+# except ValueError:
+#     print("Digite um valor válido para temperatura")
 
 # 22: Verificador de Palíndromo
+    
+entrada = input("Digite uma palavra ou frase: ")
+if isinstance(entrada, str):
+    formatado = entrada.replace(" ", "").lower()
+    if formatado == formatado[::-1]:
+        print("É um palíndromo.")
+    else:
+        print("Não é um palíndromo.")
+else:
+    print("Entrada inválida. Por favor, digite uma palavra ou frase.")
+    
 # 23: Calculadora Simples
 # 24: Classificador de Números
 # 25: Conversão de Tipo com Validação
